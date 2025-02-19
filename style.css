@@ -579,3 +579,212 @@ html {
     
 }
 
+
+
+
+
+
+/* ===== Fifth (last) section ================ */
+
+.last-section{
+    margin-bottom: 69px;
+    padding: 0 118px;
+}
+
+
+.last-section-card{
+    display: flex;
+    gap: 46px;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    border-radius: 20px;
+    background-color: #FFFFFF ;
+    transition: .3s;
+}
+
+
+.last-section-card:hover {
+    transform: scale(1.1);  
+    cursor: pointer;
+}
+
+
+.last-section-card-texts{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 31px;
+    gap: 32px;
+    padding-right: 58px;
+}
+
+
+.last-section-card-text1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 17px;
+}
+
+
+.author3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.author3 p {
+    color: #BCBCBC;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+.last-section-card-image1, 
+.last-section-card-image2,
+.last-section-card-image3{
+    padding: 25px 337px 304px 34px;
+    border-radius: 20px;
+}
+
+
+.last-section-card-text2{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+
+.last-section-card-text2 h1{
+    font-size: 26px;
+    font-weight: 700;
+    max-width: 450px;
+    color: #262626;
+}
+
+
+.short-title h1 {
+    max-width: 400px;
+}
+
+
+.last-section-card-text2 p{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 450px;
+    color: #262626;
+}
+
+
+.last-section-card-image1 a{
+    font-size: 12px;
+    font-weight: 700;
+    color:  #FFFFFF;
+    background-color: #262626;
+    padding: 9px 60px;
+    border-radius: 40px;
+    border: none;
+    transition: .3s;
+   
+}
+
+
+.last-section-card-image2 a{
+    font-size: 12px;
+    font-weight: 700;
+    color:  #FFFFFF;
+    background-color: #262626;
+    padding: 9px 52px;
+    border-radius: 40px;
+    border: none;
+    transition: .3s;
+   
+}
+
+
+.last-section-card-image3 a{
+    font-size: 12px;
+    font-weight: 700;
+    color:  #FFFFFF;
+    background-color: #262626;
+    padding: 9px 38px;
+    border-radius: 40px;
+    border: none;
+    transition: .3s;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;      
+}
+
+
+.last-section-card-image1 a:hover,
+.last-section-card-image2 a:hover,
+.last-section-card-image3 a:hover {
+    transform: scale(1.1);  
+    background: #4CE0D7; 
+    border:solid #4CE0D7;
+    color: rgba(38, 38, 38, 1);
+    box-shadow: 0px 6px 6px 0px white;
+   
+}
+
+
+.last-section-arrow a{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4CE0D7;
+    transition: .3s;
+
+}
+
+
+.last-section-arrow a:hover {
+    transform:translateX(20px)
+}
+
+
+.last-section-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+
+.last-section-card1{
+    background: url(./assets/fifth-section-Card1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+.last-section-card2{
+    background: url(./assets/fifth-section-Card2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+.last-section-card3{
+    background: url(./assets/fifth-section-Card3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+
+.card1,
+.card2,
+.card3 {
+    background-color:#FFFFFF;
+}
+
