@@ -80,3 +80,67 @@ html {
 .burger-menu{
     display: none;
 }
+
+
+
+
+
+/* ==== first section ================== */
+
+.first-section {
+    padding: 0 84px;
+    margin-bottom: 73px;
+}
+
+
+.first-section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 218px 0 145px 53px;
+    background: url(./assets/first-section-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    transition: .3s;
+
+}
+
+
+.first-section-content:hover {
+    transform: scale(1.1);  
+    cursor: pointer;
+}
+
+
+.first-section-content h3{
+    font-size: 12px;
+    font-weight: 700;
+    color:#FFFFFF;
+}
+
+
+.first-section-content h1{
+    font-size: 46px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+.first-section-content span{
+    font-weight: 700;
+    font-size: 46px;
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+
+.first-section-content p{
+    font-size: 20px;
+    font-weight: 400;
+    color:#FFFFFF;
+    max-width: 495px;
+}
+
