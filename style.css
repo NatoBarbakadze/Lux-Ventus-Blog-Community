@@ -246,3 +246,160 @@ html {
     color: #BCBCBC;
 }
 
+
+
+
+
+/* ===== third section ============================== */
+
+.section-3{
+    margin-bottom: 97px;
+    padding: 0 118px;
+}
+
+
+.section-3-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    border-radius: 20px;
+    background-color:#FFFFFF;
+    transition: .3s;
+}
+
+
+.section-3-content:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+
+.section-3-card {
+    background: url(./assets/third-section-Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+.section-3-image{
+    padding: 25px 304px 337px 34px;
+    border-radius: 20px;
+}
+
+
+.section-3-image a{
+    font-size: 12px;
+    font-weight: 700;
+    color:  #FFFFFF;
+    background-color: #262626;
+    padding: 9px 51px;
+    border-radius: 40px;
+    border: none;
+    transition: .3s;
+}
+
+
+.section-3-image a:hover {
+    transform: scale(1.1);  
+    background: #4CE0D7; 
+    border:solid #4CE0D7;
+    color: rgba(38, 38, 38, 1);
+    box-shadow: 0px 6px 6px 0px white;
+   
+}
+
+
+.section-3-texts{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 31px;
+    gap: 32px;
+    padding-left: 64px;
+}
+
+
+.section-3-text1 {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+
+.data {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.author-data {
+    display: flex;
+    gap:133px;
+    justify-content: space-between;
+}
+
+
+.author{
+    display: flex;
+    width: 100%;
+    gap:100px;
+    justify-content: space-between;
+}
+
+
+.author p {
+    color: #BCBCBC;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+.author h5 {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 24%;
+    color:#F25E5E;
+    padding-right:150px;
+}
+
+
+.section-3-text2{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+
+.section-3-text2 h1{
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+}
+
+
+.section-3-text2 p{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 800px;
+    color: #262626;
+}
+
+
+.section-3-arrow a{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4CE0D7;
+    transition: .3s;
+}
+
+
+.section-3-arrow a:hover {
+    transform:translateX(20px)
+}
